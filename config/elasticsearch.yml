@@ -3,3 +3,6 @@ path:
   data: /data/data
   plugins: /elasticsearch/plugins
   work: /data/work
+
+http.cors.enabled: true
+http.cors.allow-origin: /http:\/\/www.elasticsearch.(org|com)/
